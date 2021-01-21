@@ -1,1 +1,154 @@
 
+
+* {
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	color: #F7F7F7;
+}
+
+a {text-decoration: none;}
+
+h1:hover,
+h2:hover,
+h5:hover,
+p:hover,
+span:hover {cursor: default;}
+
+.content-container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.top {
+	max-width: 100%;
+	background-color: #02160b;
+}
+
+.top__container {
+	max-width: 1440px;
+	height: 780px;
+	margin: 0 auto;
+	background: url(./img/main-bg.jpg) 50% 50%/cover no-repeat;
+}
+
+.header {	
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+}
+
+.logo-body {
+	flex: 0 1 240px;
+	display: flex;
+}
+
+.logo-text {
+	font-family: 'Roboto', sans-serif;
+	font-size: 32px;
+	line-height: 60px;
+	text-transform: uppercase;
+	padding-left: 15px;
+}
+
+.header-nav {
+	flex: 0 0 480px;
+	height: 60px;
+}
+
+.header-nav__list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+
+.header-nav__link {
+	display: block;
+	font-size: 23px;
+	line-height: 63px;
+}
+
+.header-nav__link:hover {
+	color: #CD6326;
+}
+
+.header-nav__link:active {
+color: #8F5613;
+}
+
+.header-nav__link_find {
+	line-height: 32px;
+	margin-top: 5px;
+}
+
+.header-nav__link_find svg:hover {
+	fill: #CD6326;
+}
+
+.header-nav__link_find svg:active {
+	fill: #8F5613;
+}
+
+.header-nav__link_sign {
+	width: 120px;
+	text-align: center;
+	line-height: 46px;
+	border: 2px solid #CD6326;
+	border-radius: 5px;
+}
+
+.header-nav__link_sign:hover {
+	color: #F7F7F7;
+	background-color: #CD6326;
+}
+
+.header-nav__link_sign:active {
+	border: 2px solid #8F5613;
+	background-color: #8F5613;
+}
+
+.survival {
+	margin-top: 120px;
+}
+
+.survival__title {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 73px;
+	letter-spacing: 2px;
+	color: #CD6326;
+	margin: 0;
+}
+
+.survival__text {
+	width: 274px;
+	font-size: 18px;
+	line-height: 27px;
+	text-align: justify;
+	margin-top: 51px;
+}
+
+.survival__link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 160px;
+	height: 60px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 23px;
+	line-height: 27px;
+	background: #CD6326;
+	border-radius: 5px;
+	margin-top: 49px;
+}
+
+.survival__link:hover {
+	background-color: #E6902A;
+}
+
+.survival__link:active {
+	background-color: #8F5613;
+}
