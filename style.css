@@ -152,3 +152,154 @@ color: #8F5613;
 .survival__link:active {
 	background-color: #8F5613;
 }
+
+.middle {
+	max-width: 100%;
+	height: 1368px;
+	background-color: #ccc;
+}
+
+.middle__title {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 72px;
+	text-align: center;
+	color: #333;
+	margin: 0;
+	padding-top: 120px;
+}
+
+.middle__text {
+	font-size: 24px;
+	line-height: 36px;
+	text-align: center;
+	color: #666;
+	margin: 0;
+	padding-top: 20px;
+}
+
+.slider {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-top: 120px;
+}
+
+.slider__left-arrow:hover {
+	fill: #CD6326;
+}
+
+.slider__left-arrow:active {
+	fill: #8F5613;
+}
+
+.slider__right-arrow:hover {
+	fill: #CD6326;
+}
+
+.slider__right-arrow:active {
+	fill: #8F5613;
+}
+
+.slider__card {
+	position: relative;
+	flex: 0 1 300px;
+	height: 360px;
+}
+
+.slider__card_inscription {
+	position: absolute;
+	bottom: 40px;
+}
+
+.slider__card_img-1  {
+	background-image: url(./img/content-img-1.jpg);
+}
+
+.slider__card_inscription-1 {
+	width: 186px;
+	left: 57px;
+}
+
+.slider__card_img-2 {
+	background-image: url(./img/content-img-2.jpg);
+}
+
+.slider__card_inscription-2 {
+	width: 152px;
+	left: 74px;
+}
+
+.slider__card_img-3 {
+	background-image: url(./img/content-img-3.jpg);
+}
+
+.slider__card_inscription-3{
+	width: 125px;
+	left: 88px;
+}
+
+.slider__card_title{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 36px;
+	text-align: center;
+	margin: 0;
+}
+
+.slider__card_text{
+	font-size: 17px;
+	line-height: 27px;
+	margin: 0;
+	padding-top: 10px;
+}
+
+.email-form {
+	text-align: center;
+	margin-top: 239px;
+}
+
+.email-form__label {
+	font-size: 27px;
+	line-height: 40px;
+	color: #333;
+}
+
+.email-form__text {
+	width: 540px;
+	font-size: 24px;
+	line-height: 56px;
+	color: #666;
+	background: #CCC;
+	border: solid 1px #666;
+	border-right: none;
+	margin-top: 61px;
+	padding-left: 15px;
+	outline: none;
+}
+
+.email-form__submit {
+	width: 120px;
+	font-size: 24px;
+	line-height: 58px;
+	text-align: center;
+	background: #CD6326;
+	border: none;
+	border-radius: 0px 5px 5px 0px;
+	cursor: pointer;
+	margin-top: 59px;
+	margin-left: -5px;
+}
+
+.email-form__submit:hover {
+	background-color: #E6902A;
+}
+
+.email-form__submit:active {
+	background-color: #8F5613;
+	outline: none;
+}
