@@ -303,3 +303,93 @@ color: #8F5613;
 	background-color: #8F5613;
 	outline: none;
 }
+
+.bottom {
+	max-width: 100%;
+	background-color: #181617;
+}
+
+.bottom__container {
+	max-width: 1440px;
+	height: 360px;
+	background: url(./img/footer-bg.jpg) 50% 50%/cover no-repeat;
+	margin: 0 auto;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 150px;
+}
+
+.footer-nav {
+	flex: 0 1 840px;
+	display: flex;
+}
+
+.footer-nav__list {
+	flex: 0 1 475px;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.footer-nav__link {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	line-height: 60px;
+}
+
+.footer-nav__link:hover {
+	color: #CD6326;
+}
+
+.footer-nav__link:active {
+	color: #8F5613;
+}
+
+.footer-nav__list_ico {
+	flex: 0 1 240px;
+	margin-left: 125px;
+	margin-top: 10px;
+}
+
+.footer-nav__list_ico-item {
+	flex: 0 1 40px;
+	height: 40px;
+	background-color: #F7F7F7;
+	border-radius: 20px;
+}
+
+.footer-nav__list_ico-item:hover {
+	background-color: #CD6326;
+}
+
+.footer-nav__list_ico-item:active {
+	background-color: #8F5613;
+}
+
+.footer-nav__link_ico {
+	width: 40px;
+	height: 40px;
+	display: block;
+}
+
+.footer-nav__link_ico-fb {
+	background: url(./img/fb-ico.svg) 46% 50% no-repeat;
+}
+
+.footer-nav__link_ico-insta {
+	background: url(./img/instagram-ico.svg) 50% 50% no-repeat;
+}
+
+.footer-nav__link_ico-pin {
+	background: url(./img/pinterest-ico.svg) 50% 50% no-repeat;
+}
+
+.footer-nav__link_ico-telegram {
+	background: url(./img/telegram-ico.svg) 35% 50% no-repeat;
+}
