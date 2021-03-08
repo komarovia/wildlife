@@ -28,7 +28,7 @@ span:hover {cursor: default;}
 	max-width: 1440px;
 	height: 780px;
 	margin: 0 auto;
-	background: url(./img/main-bg.jpg) 50% 50%/cover no-repeat;
+	background: url(./assets/main-bg.jpg) 50% 50%/cover no-repeat;
 }
 
 .header {	
@@ -216,30 +216,30 @@ color: #8F5613;
 }
 
 .slider__card_img-1  {
-	background-image: url(./img/content-img-1.jpg);
+	background-image: url(./assets/content-img-1.jpg);
 }
 
 .slider__card_inscription-1 {
 	width: 186px;
-	left: 57px;
+	left: 58px;
 }
 
 .slider__card_img-2 {
-	background-image: url(./img/content-img-2.jpg);
+	background-image: url(./assets/content-img-2.jpg);
 }
 
 .slider__card_inscription-2 {
 	width: 152px;
-	left: 74px;
+	left: 75px;
 }
 
 .slider__card_img-3 {
-	background-image: url(./img/content-img-3.jpg);
+	background-image: url(./assets/content-img-3.jpg);
 }
 
 .slider__card_inscription-3{
 	width: 125px;
-	left: 88px;
+	left: 89px;
 }
 
 .slider__card_title{
@@ -312,7 +312,7 @@ color: #8F5613;
 .bottom__container {
 	max-width: 1440px;
 	height: 360px;
-	background: url(./img/footer-bg.jpg) 50% 50%/cover no-repeat;
+	background: url(./assets/footer-bg.jpg) 50% 50%/cover no-repeat;
 	margin: 0 auto;
 }
 
@@ -379,17 +379,17 @@ color: #8F5613;
 }
 
 .footer-nav__link_ico-fb {
-	background: url(./img/fb-ico.svg) 46% 50% no-repeat;
+	background: url(./assets/fb-ico.svg) 46% 50% no-repeat;
 }
 
 .footer-nav__link_ico-insta {
-	background: url(./img/instagram-ico.svg) 50% 50% no-repeat;
+	background: url(./assets/instagram-ico.svg) 50% 50% no-repeat;
 }
 
 .footer-nav__link_ico-pin {
-	background: url(./img/pinterest-ico.svg) 50% 50% no-repeat;
+	background: url(./assets/pinterest-ico.svg) 50% 50% no-repeat;
 }
 
 .footer-nav__link_ico-telegram {
-	background: url(./img/telegram-ico.svg) 35% 50% no-repeat;
+	background: url(./assets/telegram-ico.svg) 35% 50% no-repeat;
 }
